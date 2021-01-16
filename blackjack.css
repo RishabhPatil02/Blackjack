@@ -1,0 +1,60 @@
+img{
+    margin:10px;
+}
+body{
+    background-color: black;
+}
+.top,.flex-blackjack-row-3{
+    background-color:#29293d;
+    color:#ffffff;
+    padding:10px;
+
+}
+.container-5{
+    
+    width:75%;
+    margin:0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+.flex-blackjack-row-1,.flex-blackjack-row-2,.flex-blackjack-row-3{
+    display:flex;
+    padding:10px;
+
+    flex-wrap:wrap;
+    border: 1px solid black;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.flex-blackjack-row-1,.flex-blackjack-row-2{
+    background: url('https://us.123rf.com/450wm/welcomia/welcomia1706/welcomia170600158/80485031-blackjack-and-poker-game-background-concept-illustration-.jpg?ver=6');
+    color:#ffffff;
+    
+}
+
+.flex-blackjack-row-1 div{
+    border:1px solid black;
+    flex:1;
+    height:300px;
+    
+}
+
+.flex-blackjack-row-1 img{
+    height:25%;
+}
+
+.flex-blackjack-row-2 button{
+    border:1px solid black;
+  
+}
+.flex-blackjack-row-2 div{
+    border:1px solid black;
+   
+}
+
+table,th,td{
+    padding:5px;
+    border:1px solid black;
+}
+
